@@ -14,8 +14,8 @@ fn main() {
         .read_line(&mut operator)
         .expect("Failed to read line");
 
-    let x: u32 = x.trim().parse().expect("Please type a number!");
-    let y: u32 = y.trim().parse().expect("Please type a number!");
+    let x: usize = x.trim().parse().expect("Please type a number!");
+    let y: usize = y.trim().parse().expect("Please type a number!");
     let _operator: String = operator.trim().parse().expect("Please enter an operator!");
 
     if &_operator == "add" {
