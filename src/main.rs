@@ -23,7 +23,7 @@ fn main() {
     } else if &_operator == "subtract" {
         println!("Answer: {}", x - y);
     } else if &_operator == "multiply" {
-        println!("Answer: {}", x - y);
+        println!("Answer: {}", x * y);
     } else if &_operator == "divide" {
         println!("Answer: {}", x / y);
     }
